@@ -14,7 +14,6 @@ const PORT = 3000;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Serve static files from public folder
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.json());
 
@@ -30,18 +29,17 @@ async function loadRules() {
 }
 await loadRules();
 
-// API endpoint
+// === ENDPOINT: /check (перевірка тексту + відповідність темі) ===
 app.post('/check', async (req, res) => {
-  const { text: userText, level, selectedCriteria } = req.body;
+  const { text: userText, level, selectedCriteria, topic } = req.body;
 
-  if (!userText || !selectedCriteria?.length) {
-    return res.status(400).json({ error: 'Tekst of criteria ontbreken' });
+  if (!userText || !selectedCriteria?.length || !topic) {
+    return res.status(400).json({ error: 'Tekst, criteria of onderwerp ontbreken' });
   }
 
   try {
-    // Фільтруємо потрібні критерії з файла
     const selectedRules = grammarCriteriaText
-      .split('###') // Розділювач між критеріями в grammar_rules.txt
+      .split('###')
       .filter(block =>
         selectedCriteria.some(c =>
           block.toLowerCase().includes(c.toLowerCase())
@@ -49,20 +47,24 @@ app.post('/check', async (req, res) => {
       )
       .join('\n');
 
-    // Формуємо prompt
     const messages = [
       {
         role: 'system',
-        content: `Je bent een taalexpert Nederlands. Gebruik ALLEEN de onderstaande beoordelingscriteria op niveau ${level}. Geef duidelijke, gestructureerde feedback voor ELK geselecteerd criterium.
+        content: `Je bent een taalexpert Nederlands en examinator. Eerst controleer je of de tekst inhoudelijk aansluit bij het volgende onderwerp: "${topic}". Daarna beoordeel je de tekst volgens de beoordelingscriteria.
+      
+Voor het eerste deel (relevantie):
+- Zeg of de tekst PAST bij het onderwerp of NIET.
+- Geef kort uitleg (1-2 zinnen).
+
+Daarna geef je voor ELK geselecteerd criterium:
+1. Een score volgens het beoordelingsdocument.
+2. Tips om het te verbeteren.
+3. Twee voorbeelden: één goed, één met fouten (liefst uit de tekst).
+
+Gebruik ENKEL de volgende beoordelingscriteria (niveau ${level}):
 
 ${selectedRules}
-
-Voor elke geselecteerde criterium geef je:
-1. De score volgens het beoordelingsdocument.
-2. Tips om het te verbeteren.
-3. Twee concrete voorbeelden: één goed, één die verbetering nodig heeft (bij voorkeur uit de tekst).
-
-Geef GEEN feedback over andere criteria.`
+`
       },
       {
         role: 'user',
@@ -84,20 +86,59 @@ Geef GEEN feedback over andere criteria.`
     });
 
     const result = await response.json();
-console.log('🔁 OpenRouter result:', result);
+    console.log('🔁 OpenRouter result (feedback):', result);
 
     const reply = result.choices?.[0]?.message?.content;
-
     if (!reply) return res.status(500).json({ error: 'Geen feedback ontvangen' });
 
     res.json({ output: reply });
 
   } catch (err) {
-    console.error('❌ API-fout:', err);
+    console.error('❌ API-fout (feedback):', err);
     res.status(500).json({ error: 'Interne serverfout' });
   }
 });
 
+// === ENDPOINT: /topic (генерація теми) ===
+app.post('/topic', async (req, res) => {
+  const { level, selectedCriteria } = req.body;
+
+  const prompt = `
+Je bent een creatieve taalcoach Nederlands. Bedenk één korte, duidelijke schrijftaak op niveau ${level}. De schrijftaak moet passen bij de volgende criteria: ${selectedCriteria.join(', ')}. 
+Voorbeelden: schrijf een klacht, vertel over een ervaring, geef je mening over iets, enz.
+
+Geef alleen de taak zelf, zonder uitleg. 
+`;
+
+  try {
+    const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${process.env.OPENROUTER_API_KEY}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        model: "openai/gpt-3.5-turbo",
+        messages: [{ role: "user", content: prompt }],
+        temperature: 0.8
+      })
+    });
+
+    const data = await response.json();
+    console.log('📚 OpenRouter result (topic):', data);
+
+    const topic = data.choices?.[0]?.message?.content?.trim();
+    if (!topic) return res.status(500).json({ error: "Geen thema ontvangen" });
+
+    res.json({ topic });
+
+  } catch (err) {
+    console.error("❌ Thema API-fout:", err);
+    res.status(500).json({ error: "Interne fout bij thema-generatie" });
+  }
+});
+
+// === Запуск ===
 app.listen(PORT, () => {
   console.log(`🚀 Server draait op http://localhost:${PORT}`);
 });
