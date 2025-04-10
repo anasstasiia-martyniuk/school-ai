@@ -14,7 +14,7 @@ const PORT = 3000;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Слухай папку public
+// Serve static files from public folder
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.json());
 
@@ -30,21 +30,44 @@ async function loadRules() {
 }
 await loadRules();
 
+// API endpoint
 app.post('/check', async (req, res) => {
-  const userText = req.body.text;
-  if (!userText) return res.status(400).json({ error: 'Geen tekst ontvangen' });
+  const { text: userText, level, selectedCriteria } = req.body;
+
+  if (!userText || !selectedCriteria?.length) {
+    return res.status(400).json({ error: 'Tekst of criteria ontbreken' });
+  }
 
   try {
+    // Фільтруємо потрібні критерії з файла
+    const selectedRules = grammarCriteriaText
+      .split('###') // Розділювач між критеріями в grammar_rules.txt
+      .filter(block =>
+        selectedCriteria.some(c =>
+          block.toLowerCase().includes(c.toLowerCase())
+        )
+      )
+      .join('\n');
+
+    // Формуємо prompt
     const messages = [
-      { role: 'system', content: `Je bent een taalexpert Nederlands. Gebruik de volgende beoordelingscriteria en geef duidelijke feedback per onderdeel:
+      {
+        role: 'system',
+        content: `Je bent een taalexpert Nederlands. Gebruik ALLEEN de onderstaande beoordelingscriteria op niveau ${level}. Geef duidelijke, gestructureerde feedback voor ELK geselecteerd criterium.
 
-${grammarCriteriaText}
+${selectedRules}
 
-Voor elk criterium geef je:
-• Score
-• Tips
-• 2 concrete voorbeelden` },
-      { role: 'user', content: userText }
+Voor elke geselecteerde criterium geef je:
+1. De score volgens het beoordelingsdocument.
+2. Tips om het te verbeteren.
+3. Twee concrete voorbeelden: één goed, één die verbetering nodig heeft (bij voorkeur uit de tekst).
+
+Geef GEEN feedback over andere criteria.`
+      },
+      {
+        role: 'user',
+        content: `Hier is mijn tekst:\n\n${userText}`
+      }
     ];
 
     const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
@@ -61,11 +84,14 @@ Voor elk criterium geef je:
     });
 
     const result = await response.json();
+console.log('🔁 OpenRouter result:', result);
 
     const reply = result.choices?.[0]?.message?.content;
+
     if (!reply) return res.status(500).json({ error: 'Geen feedback ontvangen' });
 
     res.json({ output: reply });
+
   } catch (err) {
     console.error('❌ API-fout:', err);
     res.status(500).json({ error: 'Interne serverfout' });

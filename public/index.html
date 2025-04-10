@@ -2,34 +2,107 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
-  <title>Nederlands Tekstchecker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startpagina - Taalcontrole</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background: #f0f0f0;
+      margin: 0;
+    }
+    h1 {
+      margin-bottom: 1rem;
+    }
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    select, button {
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+    button {
+      margin-top: 1rem;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    .checkbox-group label {
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+    .container {
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      max-width: 600px;
+      margin: 4rem auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
 </head>
 <body>
-  <h2>Typ je Nederlandse tekst:</h2>
-  <textarea id="textInput" rows="10" cols="80"></textarea><br>
-  <button onclick="checkText()">Controleer</button>
+  <div class="container">
+    <h1>Kies je taalniveau en criteria</h1>
+    <form id="start-form">
+      <div class="form-group">
+        <label for="level">Taalniveau:</label>
+        <select id="level" name="level">
+          <option value="A1">A1</option>
+          <option value="A2">A2</option>
+          <option value="B1">B1</option>
+          <option value="B2">B2</option>
+          <option value="C1">C1</option>
+        </select>
+      </div>
 
-  <h3>Feedback:</h3>
-  <pre id="results"></pre>
+      <div class="form-group checkbox-group">
+        <label><input type="checkbox" name="criteria" value="voegwoorden"> Voegwoorden</label>
+        <label><input type="checkbox" name="criteria" value="verwijswoorden"> Verwijswoorden</label>
+        <label><input type="checkbox" name="criteria" value="opbouw"> Opbouw</label>
+        <label><input type="checkbox" name="criteria" value="woordenschat"> Woordenschat</label>
+        <label><input type="checkbox" name="criteria" value="lidwoorden"> Lidwoorden</label>
+        <label><input type="checkbox" name="criteria" value="voorzetles"> Voorzetles</label>
+        <label><input type="checkbox" name="criteria" value="toon"> Toon en register</label>
+        <label><input type="checkbox" name="criteria" value="woordvolgorde"> Woordvolgorde in de hoofdzinnen</label>
+        <label><input type="checkbox" name="criteria" value="bijzinnen"> Bijzinnen</label>
+        <label><input type="checkbox" name="criteria" value="werkwoordsvormen"> Werkwoordsvormen</label>
+        <label><input type="checkbox" name="criteria" value="verbuigen"> Verbuigingen van voornaamwoorden</label>
+        <label><input type="checkbox" name="criteria" value="spelling"> Spelling</label>
+        <label><input type="checkbox" name="criteria" value="leestekens"> Leestekens en hoofletters</label>
+      </div>
+
+      <button type="button" id="start-chat">Ga naar de chat</button>
+    </form>
+  </div>
 
   <script>
-    async function checkText() {
-      const text = document.getElementById('textInput').value;
-      document.getElementById('results').textContent = 'Even wachten...';
-
-      try {
-        const res = await fetch('/check', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ text })
-        });
-
-        const data = await res.json();
-        document.getElementById('results').textContent = data.output || '❌ Geen feedback ontvangen.';
-      } catch (e) {
-        document.getElementById('results').textContent = '❌ Fout bij verzenden.';
+    document.getElementById('start-chat').addEventListener('click', function (e) {
+      e.preventDefault(); // зупиняє стандартну поведінку форми
+  
+      const level = document.getElementById('level').value;
+      const criteria = Array.from(document.querySelectorAll('input[name="criteria"]:checked')).map(el => el.value);
+  
+      if (!level || criteria.length === 0) {
+        alert("Selecteer minimaal één criterium.");
+        return;
       }
-    }
+  
+      localStorage.setItem('level', level);
+      localStorage.setItem('criteria', JSON.stringify(criteria));
+  
+      window.location.href = 'chat.html';
+    });
   </script>
+  
 </body>
 </html>
