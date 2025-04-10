@@ -39,11 +39,11 @@ Gebruikt de kandidaat waar nodig voegwoorden?
 
 Score:
 Nee, de kandidaat gebruikt losse woorden of enkelvoudige zinnen. === <A1
-Ja, de kandidaat gebruikt soms (basis)voegwoorden, met name 'en', 'want' === A1
-Ja, de kandidaat gebruikt basisvoegwoorden zoals 'en', 'want' correct en eenvoudige voegwoorden zoals 'maar', 'omdat' meestal correct. === A2
-Ja, de kandidaat gebruikt eenvoudige voegwoorden vrijwel altijd correct. De kandidaat gebruikt soms complexere voegwoorden zoals 'voordat', 'terwijl', 'toen'. === B1
-Ja, de kandidaat gebruikt eenvoudige voegwoorden vrijwel altijd correct. Het gebruik van complexere voegwoorden is meestal correct. === B2
-Ja, de kandidaat gebruikt eenvoudige en complexere voegwoorden vrijwel altijd correct. === C1
+Ja, de kandidaat gebruikt minimaal twee keer (basis)voegwoorden, met name 'en', 'want' === A1
+Ja, de kandidaat gebruikt basisvoegwoorden zoals 'en', 'want' correct en eenvoudige voegwoorden zoals 'maar', 'omdat' meestal (meer dan 70%) correct. === A2
+Ja, de kandidaat gebruikt eenvoudige voegwoorden vrijwel altijd(meer dan 90%) correct. De kandidaat gebruikt soms complexere voegwoorden zoals 'voordat', 'terwijl', 'toen'. === B1
+Ja, de kandidaat gebruikt eenvoudige voegwoorden vrijwel altijd correct. Het gebruik van complexere voegwoorden is meestal (meer dan 70%) correct. === B2
+Ja, de kandidaat gebruikt eenvoudige en complexere voegwoorden vrijwel altijd(meer dan 90%) correct. === C1
 
 
 ###VERWIJSWOORDEN
@@ -52,10 +52,10 @@ Gebruikt de kandidaat waar nodig verwijswoorden?
 
 Score:
 Nee, de kandidaat gebruikt geen verwijswoorden. === A1
-Ja, de kandidaat gebruikt soms eenvoudige verwijswoorden zoals 'die', 'dat', 'zij', 'hem', 'daar'. Het gebruik is lang niet altijd correct. ==== A2
-Ja, de kandidaat gebruikt eenvoudige verwijswoorden vrijwel altijd correct. De kandidaat gebruikt soms complexere verwijswoorden zoals: Ik moet dan naar de huisarts. Ik ken haar al 2 jaar. === B1
-Ja, de kandidaat gebruikt eenvoudige verwijswoorden vrijwel altijd correct. Hij gebruikt ook complexere verwijswoorden. Het gebruik is dan meestal correct. === B2
-Ja, de kandidaat gebruikt eenvoudige en complexere verwijswoorden vrijwel altijd correct. === C1
+Ja, de kandidaat gebruikt soms(meer dan 50%) eenvoudige verwijswoorden zoals 'die', 'dat', 'zij', 'hem', 'daar'. Het gebruik is lang niet altijd correct. ==== A2
+Ja, de kandidaat gebruikt eenvoudige verwijswoorden vrijwel altijd(meer dan 90%) correct. De kandidaat gebruikt soms complexere verwijswoorden zoals: Ik moet dan naar de huisarts. Ik ken haar al 2 jaar. === B1
+Ja, de kandidaat gebruikt eenvoudige verwijswoorden vrijwel altijd(meer dan 90%) correct. Hij gebruikt ook complexere verwijswoorden. Het gebruik is dan meestal (meer dan 70%) correct. === B2
+Ja, de kandidaat gebruikt eenvoudige en complexere verwijswoorden vrijwel altijd(meer dan 90%) correct. === C1
 
 
 ###OPBOUW
@@ -64,10 +64,10 @@ Brengt de kandidaat opbouw in zijn tekst aan?
 
 Score:
 Nee, de kandidaat brengt geen opbouw aan. ==== A1
-Ja, de kandidaat brengt waar nodig vaak opbouw aan met eenvoudige strategie�n zoals opsommingen (bijv. en, ook) en volgorde van activiteiten (bijv. dan, daarna). Dit gaat niet altijd correct. === A2
-Ja, de kandidaat brengt meestal op correcte wijze opbouw aan met eenvoudige strategien. Hij gebruikt soms ook complexere strategien voor volgorde in tijd (bijv. nadat, voordat), causaal verband (bijv. doordat, vanwege), of vergelijking (bijv. zoals, even ... als). Het gebruik is dan niet altijd correct. === B1
-Ja, de kandidaat brengt vrijwel altijd op correcte wijze opbouw aan met eenvoudige strategien. Hij gebruikt regelmatig ook complexere strategien. Het gebruik is dan niet altijd correct. === B2
-Ja, de kandidaat brengt vrijwel altijd op correcte wijze opbouw aan met eenvoudige en complexere strategien. === C1
+Ja, de kandidaat brengt waar nodig vaak opbouw aan met eenvoudige strategien zoals opsommingen (bijv. en, ook) en volgorde van activiteiten (bijv. dan, daarna). Dit gaat niet altijd correct. === A2
+Ja, de kandidaat brengt meestal op correcte wijze opbouw aan met eenvoudige strategien. Hij gebruikt soms ook complexere strategien voor volgorde in tijd (bijv. nadat, voordat), causaal verband (bijv. doordat, vanwege), of vergelijking (bijv. zoals, even ... als). Het gebruik is dan niet altijd(meer dan 70%) correct. === B1
+Ja, de kandidaat brengt vrijwel altijd(meer dan 90%) op correcte wijze opbouw aan met eenvoudige strategien. Hij gebruikt regelmatig ook complexere strategien. Het gebruik is dan niet altijd(meer dan 70%) correct. === B2
+Ja, de kandidaat brengt vrijwel altijd(meer dan 90%) op correcte wijze opbouw aan met eenvoudige en complexere strategien. === C1
 
 
 ###DE WOORDENSCHAT
@@ -88,11 +88,11 @@ De kandidaat laat een goede beheersing van een breed scala aan taal zien. De kan
 Hoe gebruikt de kandidaat voorzetsels?
 
 Score:
-De kandidaat gebruikt alleen eventuele voorzetsels in eenvoudige voorzetselcombinaties (bijv. 'op school', 'met de bus', 'wachten op', 'luisteren naar') en als hij ze gebruikt, zijn deze zelden correct. === A1
-Eenvoudige voorzetselcombinaties zijn meestal correct. === A2
-De kandidaat gebruikt eenvoudige voorzetselcombinaties vrijwel altijd correct. Bij complexere voorzetselcombinaties zoals 'rondom de stad', 'langs de rivier', 'vanwege zijn ziekte', 'rekening houden met', 'verstand hebben van' gaat het nog vaak fout. === B1
-De kandidaat gebruikt complexere voorzetselcombinaties meestal correct. === B2
-De kandidaat gebruikt complexere voorzetselcombinaties vrijwel altijd correct. === C1
+De kandidaat gebruikt alleen eventuele voorzetsels in eenvoudige voorzetselcombinaties (bijv. 'op school', 'met de bus', 'wachten op', 'luisteren naar') en als hij ze gebruikt, zijn deze zelden(minder dan 20%) correct. === A1
+Eenvoudige voorzetselcombinaties zijn meestal(meer dan 70%) correct. === A2
+De kandidaat gebruikt eenvoudige voorzetselcombinaties vrijwel altijd correct. Bij complexere voorzetselcombinaties zoals 'rondom de stad', 'langs de rivier', 'vanwege zijn ziekte', 'rekening houden met', 'verstand hebben van' gaat het nog vaak(meer dan 30%) fout. === B1
+De kandidaat gebruikt complexere voorzetselcombinaties meestal(meer dan 70%) correct. === B2
+De kandidaat gebruikt complexere voorzetselcombinaties vrijwel altijd(meer dan 90%) correct. === C1
 
 
 ###TOON EN REGISTER
@@ -100,9 +100,9 @@ De kandidaat gebruikt complexere voorzetselcombinaties vrijwel altijd correct. =
 Zijn de toon en het register, en in indien van toepassing de aanhef en de afsluiting, passend voor de verhouding tussen de kandidaat en de ontvanger van de tekst?
 
 Score: 
-Nee
+Nee === A1
 
-Ja
+Ja === B1
 
 
 ###WOORDVOLGORDE
@@ -110,11 +110,11 @@ Ja
 Hoe is de woordvolgorde in hoofdzinnen?
 
 Score:
-De woordvolgorde is zelden correct. === <A1
+De woordvolgorde is zelden(minder dan 20%) correct. === <A1
 De woordvolgorde is alleen correct bij veelgebruikte constructies en bij uit het hoofd geleerde uitdrukkingen. === A1
-De woordvolgorde is redelijk correct. === A2
-De woordvolgorde is meestal correct. === B1
-De woordvolgorde is vrijwel altijd correct. === B2
+De woordvolgorde is redelijk(meer dan 60%) correct. === A2
+De woordvolgorde is meestal(meer dan 70%) correct. === B1
+De woordvolgorde is vrijwel altijd correct.(meer dan 90%) === B2
 
 
 ###BIJZINNEN 
@@ -123,9 +123,9 @@ Gebruikt de kandidaat waar nodig bijzinnen?
 
 Score:
 De kandidaat gebruikt geen bijzinnen. === A1
-De kandidaat gebruikt (bijna) geen bijzinnen en als hij ze gebruikt, zijn ze zelden of nooit correct. === A2
-De kandidaat gebruikt regelmatig bijzinnen. De woordvolgorde is meestal correct. === B1
-De kandidaat gebruikt over het algemeen bijzinnen vrijwel altijd correct. === B2
+De kandidaat gebruikt (bijna) geen bijzinnen en als hij ze gebruikt, zijn ze zelden(minder dan 20%) of nooit correct. === A2
+De kandidaat gebruikt regelmatig bijzinnen. De woordvolgorde is meestal(meer dan 70%) correct. === B1
+De kandidaat gebruikt over het algemeen bijzinnen vrijwel altijd(meer dan 90%) correct. === B2
 
 
 ###DE WERKWOORDSVORMEN
@@ -133,12 +133,12 @@ De kandidaat gebruikt over het algemeen bijzinnen vrijwel altijd correct. === B2
 Hoe is de vorm van de werkwoorden?
 
 Score:
-De werkwoordsvormen zijn zelden correct. === <A1
-De werkwoordsvormen zijn soms correct bij veelvoorkomende werkwoorden zoals 'hebben', 'zijn', 'doen'. === A1
-De werkwoordsvormen zijn meestal correct bij veelvoorkomende werkwoorden. === A2
-De werkwoordsvormen zijn meestal correct, behalve bij sterke en onregelmatige werkwoorden. === B1
-De werkwoordsvormen zijn vrijwel altijd correct, behalve bij weinig voorkomende, onregelmatige werkwoorden zoals 'mijden', 'bedriegen', 'kruipen'. === B2
-De werkwoordsvormen zijn vrijwel altijd correct. === C1
+De werkwoordsvormen zijn zelden(minder dan 20%) correct. === <A1
+De werkwoordsvormen zijn soms(meer dan 50%) correct bij veelvoorkomende werkwoorden zoals 'hebben', 'zijn', 'doen'. === A1
+De werkwoordsvormen zijn meestal(meer dan 70%) correct bij veelvoorkomende werkwoorden. === A2
+De werkwoordsvormen zijn meestal(meer dan 70%) correct, behalve bij sterke en onregelmatige werkwoorden. === B1
+De werkwoordsvormen zijn vrijwel altijd(meer dan 90%) correct, behalve bij weinig voorkomende, onregelmatige werkwoorden zoals 'mijden', 'bedriegen', 'kruipen'. === B2
+De werkwoordsvormen zijn vrijwel altijd(meer dan 90%) correct. === C1
 
 
 ###VOORNAAMWOORDEN
@@ -147,9 +147,9 @@ Hoe is de verbuiging van voornaamwoorden, bijvoeglijke en zelfstandige naamwoord
 
 Score:
 Eenvoudige verbuiging zoals meervoud maken met -en of -s (bijv. boeken, tafels) en overtreffende trap maken (bijv. mooi-mooier-mooist) wordt niet of nauwelijks gerealiseerd. === A1
-Eenvoudige verbuiging wordt meestal correct gerealiseerd. === A2
-Complexere verbuiging van naamwoorden zoals onregelmatige vormen (bijv. weinig-minder-minst, stad-steden) en waar nodig toevoegen van -e aan het bijvoeglijk naamwoord (bijv. mooie huizen, interessante lessen) wordt meestal correct gerealiseerd. === B1
-Complexere verbuiging van naamwoorden wordt vrijwel altijd correct gerealiseerd. === B2
+Eenvoudige verbuiging wordt meestal(meer dan 70%) correct gerealiseerd. === A2
+Complexere verbuiging van naamwoorden zoals onregelmatige vormen (bijv. weinig-minder-minst, stad-steden) en waar nodig toevoegen van -e aan het bijvoeglijk naamwoord (bijv. mooie huizen, interessante lessen) wordt meestal(meer dan 70%) correct gerealiseerd. === B1
+Complexere verbuiging van naamwoorden wordt vrijwel altijd(meer dan 90%) correct gerealiseerd. === B2
 
 
 ###LIDWOORDEN
@@ -158,9 +158,9 @@ Hoe gebruikt de kandidaat lidwoorden?
 
 Score:
 De kandidaat gebruikt nauwelijks tot geen lidwoorden. === A1
-De kandidaat vergeet soms lidwoorden te gebruiken. === A2
+De kandidaat vergeet soms(meer dan 50%) lidwoorden te gebruiken. === A2
 De kandidaat gebruikt lidwoorden over het algemeen waar nodig. === B1
-De kandidaat gebruikt lidwoorden vrijwel altijd waar nodig. === B2
+De kandidaat gebruikt lidwoorden vrijwel altijd(meer dan 90%) waar nodig. === B2
 
 
 ###SPELLING
@@ -173,7 +173,7 @@ De kandidaat kan het eigen adres, de nationaliteit en andere persoonlijke detail
 De kandidaat kan het eigen adres, de nationaliteit en andere persoonlijke details correct overschrijven. De spelling van veelvoorkomende woorden is fonetisch (Kan het woord schrijven zoals het klinkt, bijv. kurses, of sgool) redelijk correct. De lezer moet zich geregeld inspannen om te begrijpen wat er staat. === A2
 De spelling van de woorden is in de meeste gevallen accuraat genoeg om te volgen. De lezer hoeft zich nauwelijks in te spannen om te begrijpen wat er staat. === B1
 De spelling van de woorden is meestal correct, ook bij minder voorkomende woorden. De lezer hoeft zich niet in te spannen om te begrijpen wat er staat. === B2
-De spelling van de woorden is vrijwel altijd correct, afgezien van enkele verschrijvingen. === C1
+De spelling van de woorden is vrijwel altijd(meer dan 90%) correct, afgezien van enkele verschrijvingen. === C1
 
 
 ###LEESTEKENS 
@@ -181,17 +181,42 @@ De spelling van de woorden is vrijwel altijd correct, afgezien van enkele versch
 Gebruikt de kandidaat leestekens?
 
 Score: 
-De kandidaat gebruikt geen hoofdletters en punten. === <A1
-De kandidaat gebruikt nauwelijks hoofdletters en punten. === A1
-De kandidaat gebruikt soms hoofdletters en punten. === A2
+De kandidaat gebruikt tot geen (minder dan 30%) hoofdletters en punten. === <A1
+De kandidaat gebruikt nauwelijks(meer dan 40%)  hoofdletters en punten. === A1
+De kandidaat gebruikt soms(meer dan 50%) hoofdletters en punten. === A2
 De kandidaat gebruikt hoofdletters, punten en vraagtekens waar nodig. === B1
 De kandidaat gebruikt hoofdletters en alle soorten leestekens meestal correct. === B2
-De kandidaat gebruikt hoofdletters en alle soorten leestekens vrijwel altijd correct. === C1
+De kandidaat gebruikt hoofdletters en alle soorten leestekens vrijwel altijd(meer dan 90%) correct. === C1
+
+
+
 
 ###VOORBEELDEN VAN GOEDE TEKSTEN 
 
+VOOR NIVEAU A2:
+
+1. Mijn favoriete feestdag
+Mijn favoriete feestdag is Kerstmis. Dan is het huis mooi versierd met lichtjes en een kerstboom. Ik hou van de sfeer en de muziek. Mijn familie komt bij elkaar om samen te eten. We maken lekkere gerechten zoals soep, kip en taart. Na het eten geven we cadeautjes aan elkaar. Iedereen is blij en lacht veel. Ik vind het leuk om warme chocolademelk te drinken bij de open haard. Soms kijken we samen naar een kerstfilm. Kerstmis is voor mij een gezellige en warme tijd.
+
+
+2. Een dag zonder technologie
+Vorige week probeerde ik een dag zonder telefoon en computer te leven. Het was moeilijk in het begin. Ik keek steeds naar mijn zak, maar mijn telefoon was er niet. Ik besloot om een boek te lezen en een wandeling te maken. In het park hoorde ik vogels zingen en zag ik kinderen spelen. Ik voelde me rustig. Thuis heb ik gepuzzeld met mijn broer. We lachten veel. Het was eigenlijk een fijne dag. Ik denk dat ik dit vaker wil doen.
+
+
+3. Mijn droomreis
+Ik droom van een reis naar Japan. Ik wil de natuur daar zien, vooral de bergen en de bloesembomen. Ook hou ik van sushi en wil ik echte Japanse gerechten proeven. In Tokyo wil ik naar moderne winkels gaan en nieuwe technologie zien. Maar ik wil ook oude tempels bezoeken. Ik hou van cultuur en geschiedenis. De taal is moeilijk, maar ik leer al een paar woorden. Misschien ga ik ooit in de lente, als alles in bloei staat. Dat lijkt me fantastisch.
+
+
+4. Mijn lievelingsdier
+Mijn lievelingsdier is een olifant. Ik vind ze groot, sterk maar ook vriendelijk. Olifanten leven in groepen en zorgen goed voor elkaar. Dat vind ik mooi. Ik zag ooit een documentaire over baby-olifanten. Ze waren heel schattig! Ik wil graag naar Afrika reizen om ze in het echt te zien. In de dierentuin kijk ik altijd lang naar hen. Soms tekenen of schilder ik olifanten. Ze inspireren mij. Ik hoop dat mensen goed voor hen blijven zorgen.
+
+
+5. Mijn favoriete hobby
+Mijn favoriete hobby is koken. Ik vind het leuk om nieuwe recepten te proberen. Soms maak ik iets uit Italië, soms uit India. Mijn vrienden vinden mijn curry’s heel lekker. Op zaterdag kook ik vaak samen met mijn moeder. We lachen veel in de keuken. Na het eten drinken we thee en praten we. Ik volg ook kookvideo’s op internet. Koken maakt mij rustig en blij. Later wil ik misschien kok worden.
+
 
 VOOR NIVEAU B1:
+
 1. Brief aan een vriend over een reis: 
 Beste Tom,
 Hoe gaat het met je? Ik hoop dat alles goed is. Ik wil je graag vertellen over mijn reis naar Parijs vorige maand.
@@ -240,3 +265,72 @@ Sociale media zijn tegenwoordig erg populair. Bijna iedereen heeft een account o
 Aan de ene kant zijn ze handig om contact te houden met vrienden of op de hoogte te blijven van het nieuws. Aan de andere kant kunnen ze ook stress geven, bijvoorbeeld als je jezelf vergelijkt met anderen.
 
 Ik denk dat sociale media goed kunnen zijn, zolang je ze op een gezonde manier gebruikt. Het is belangrijk om ook offline te leven en echte gesprekken te voeren.
+
+
+VOOR NIVEAU B2:
+
+1. Sollicitatiebrief voor een baan als projectmanager
+
+Geachte heer/mevrouw,
+
+Met deze brief solliciteer ik naar de functie van projectmanager bij uw organisatie. Na vijf jaar ervaring in het leiden van multidisciplinaire teams, ben ik ervan overtuigd dat mijn vaardigheden en motivatie goed aansluiten bij de vereisten van deze rol.
+
+Ik heb een masterdiploma in Bedrijfskunde en heb gewerkt aan diverse internationale projecten, waarbij ik verantwoordelijk was voor planning, communicatie en risicobeheer. Wat mij uniek maakt, is mijn vermogen om mensen te verbinden en doelen op een efficiënte manier te behalen.
+
+De waarden van uw bedrijf spreken mij enorm aan, vooral de focus op duurzaamheid en innovatie. Ik zou graag deel uitmaken van een team dat echt impact maakt.
+
+Graag licht ik mijn motivatie verder toe in een gesprek. Bijgevoegd vindt u mijn cv.
+
+Met vriendelijke groet,
+Hanneke Vermeer
+
+
+2. Klacht over overlast door verbouwing van de buren
+
+Geachte heer/mevrouw van de VvE,
+
+Sinds enkele weken ondervind ik ernstige overlast van de verbouwingswerkzaamheden in het appartement naast mij. Dagelijks beginnen de werkzaamheden al om 07:00 uur en gaan soms tot laat in de avond door. Het geluid van boren en hameren is niet alleen hinderlijk, maar ook schadelijk voor mijn concentratie en welzijn.
+
+Ik begrijp dat verbouwen nodig is, maar ik verzoek u dringend om grenzen te stellen aan de werktijden en geluidsoverlast. Graag zie ik uw reactie met concrete oplossingen tegemoet.
+
+Met vriendelijke groet,
+Dhr. J. de Jong
+
+
+3. Oproep in de krant – vrijwilligers gezocht voor dierenasiel
+
+📣 Vrijwilligers gezocht voor dierenasiel in Utrecht!
+
+Heb jij een hart voor dieren en wat vrije tijd? Ons dierenasiel is dringend op zoek naar gemotiveerde vrijwilligers die willen helpen met het verzorgen van katten en honden. Ook zoeken wij mensen die kunnen ondersteunen bij administratief werk of het organiseren van evenementen.
+
+Je hoeft geen ervaring te hebben – enthousiasme is belangrijker! Wij zorgen voor een goede begeleiding en een warme sfeer.
+
+Aanmelden kan via: info@dierenasielutrecht.nl
+
+Samen maken we het verschil voor onze dieren! 🐾
+
+
+4. Klacht over dienstverlening openbaar vervoer
+
+Beste klantenservice NS,
+
+Op dinsdag 5 maart had ik een belangrijke afspraak in Amsterdam, maar mijn trein van 08:02 uit Eindhoven werd zonder aankondiging geannuleerd. De volgende trein had vertraging van 25 minuten, waardoor ik mijn afspraak miste.
+
+Dit is niet de eerste keer dat dit gebeurt. Ik verwacht een betrouwbare dienstregeling, zeker op spitsmomenten. Graag ontvang ik een verklaring én compensatie voor de gemaakte kosten.
+
+Met vriendelijke groet,
+A. Peters
+
+
+5. Sollicitatie als communicatiemedewerker bij een NGO
+
+Geachte mevrouw Janssen,
+
+Via uw website las ik met veel interesse de vacature voor communicatiemedewerker bij uw NGO. De missie om kansarme jongeren in ontwikkelingslanden te ondersteunen, raakt mij persoonlijk.
+
+Tijdens mijn studie Communicatie heb ik me gespecialiseerd in sociale media en storytelling. Ik werkte daarna twee jaar bij een klein goed doel waar ik campagnes coördineerde en fondsenwerving ondersteunde.
+
+Wat mij aanspreekt in uw organisatie is de transparantie en de focus op impact. Graag lever ik mijn bijdrage aan een betere wereld via heldere communicatie.
+
+Met vriendelijke groet,
+Niels van Dijk

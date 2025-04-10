@@ -105,9 +105,22 @@ app.post('/topic', async (req, res) => {
 
   const prompt = `
 Je bent een creatieve taalcoach Nederlands. Bedenk één korte, duidelijke schrijftaak op niveau ${level}. De schrijftaak moet passen bij de volgende criteria: ${selectedCriteria.join(', ')}. 
-Voorbeelden: schrijf een klacht, vertel over een ervaring, geef je mening over iets, enz.
+Voorbeelden:
+- Een brief of e-mail schrijven (bijvoorbeeld naar een docent, stageplek, school of voor
+een sollicitatie).
+- Een persoonlijke tekst schrijven (bijvoorbeeld een brief naar familie of vrienden, of iets
+vertellen over je werk, school of stage).
+- Een klacht of probleem opschrijven (bijvoorbeeld een klachtenbrief maken of een
+klachtenformulier invullen).
+- Een uitnodiging of oproep maken (bijvoorbeeld voor een feest, excursie, open dag of
+protest).
+- Een formulier invullen (bijvoorbeeld om je in te schrijven voor een stage, sportclub of
+opleiding).
+
+Kan NIET alleen over vakantie en weekend! Onderwerp hoeven niet telkens herhaald te worden.!
 
 Geef alleen de taak zelf, zonder uitleg. 
+Als het onderwerp niet klopt, analyseer de tekst van student dan nog steeds volgens de criteria.Besteed geen aandacht aan het hoofdonderwerp, maar op het onderwerp van de student.
 `;
 
   try {
