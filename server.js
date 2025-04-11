@@ -117,7 +117,8 @@ protest).
 - Een formulier invullen (bijvoorbeeld om je in te schrijven voor een stage, sportclub of
 opleiding).
 
-Kan NIET alleen over vakantie en weekend! Onderwerp hoeven niet telkens herhaald te worden.!
+Kan NIET alleen over vakantie en weekend! Onderwerp hoeven niet telkens herhaald te worden.! 
+Onderwerpen moeten verschillende.
 
 Geef alleen de taak zelf, zonder uitleg. 
 Als het onderwerp niet klopt, analyseer de tekst van student dan nog steeds volgens de criteria.Besteed geen aandacht aan het hoofdonderwerp, maar op het onderwerp van de student.
